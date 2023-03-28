@@ -48,14 +48,20 @@ h1, h2 {
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
-/* hero image */
+/* hero image cover text*/
+
+
 
 #hero-outer{
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
-
+#cover-text, #cover-text h2{
+    color: white;
+    
+}
 #hero-image {
     height: 600px;
     width: 100%;
@@ -75,4 +81,18 @@ from{
 to{
     transform: scale(1.1);
 }
+}
+#cover-text {
+    font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 250px;
+    padding: 15px 20px;
+
+    background-color: rgba(28, 136, 37, 0.7);
+
+    bottom: 200px;
+    right: 200px;
+
+    position: absolute;
 }
