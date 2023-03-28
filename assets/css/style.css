@@ -9,7 +9,8 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: brown;
+    color: rgb(0, 0, 0);
+    background-color: #f9f5f5;
 }
 
 /* headings and logo */
@@ -19,11 +20,13 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #18dd4d;
+    
 }
 
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 20px;
 }
 
 /* navigation links */
@@ -96,3 +99,71 @@ to{
 
     position: absolute;
 }
+
+
+footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #07a301;
+}
+
+.text {
+    padding: 20px;
+  }
+  
+  .text h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .text p{
+    ont-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: aqua;
+  }
+  
+  
+  
+  
+  
+#times {
+    background-image: url('../images/next-games.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 2s0px;
+  margin-right: 20px;
+  }
+  
+  #times div {
+    color: #fafafa;
+    background-color: rgba(41, 42, 42, 0.6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+  }
+  
