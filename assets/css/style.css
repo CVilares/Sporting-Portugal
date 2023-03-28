@@ -100,7 +100,6 @@ to{
     position: absolute;
 }
 
-
 footer {
     background-color: #ffffff;
     padding: 20px;
@@ -166,4 +165,12 @@ footer {
     border: 2px solid rgb(0, 0, 0);
     box-sizing: border-box;
   }
+  #photos{
+    clear: both;
+    column-count: 4;
+    column-gap: 0cm;
+  }
   
+  #photos > img { 
+    width: 100%;
+  }
