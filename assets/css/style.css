@@ -10,7 +10,7 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: rgb(0, 0, 0);
-    background-color: #f9f5f5;
+    background-color: #000000;
 }
 
 /* headings and logo */
@@ -19,7 +19,7 @@ h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #18dd4d;
+    color: #036218;
     
 }
 
@@ -42,6 +42,7 @@ h1, h2 {
     float: right;
     margin-right: 30px;
     list-style-type: none;
+    color: rgb(255, 255, 255);
     
 }
 #menu a {
@@ -49,7 +50,7 @@ h1, h2 {
     color: inherit;
 }
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #0b4903;
 }
 /* hero image cover text*/
 
@@ -62,7 +63,7 @@ h1, h2 {
     position: relative;
 }
 #cover-text, #cover-text h2{
-    color: white;
+    color: rgb(247, 247, 247);
     
 }
 #hero-image {
@@ -76,7 +77,7 @@ animation-duration: 5s;
 animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom for hero image */
+
 @keyframes hero-zoom {
 from{
     transform: scale(1);
@@ -92,7 +93,7 @@ to{
     width: 250px;
     padding: 15px 20px;
 
-    background-color: rgba(28, 136, 37, 0.7);
+    background-color: rgba(13, 106, 20, 0.7);
 
     bottom: 200px;
     right: 200px;
@@ -101,25 +102,33 @@ to{
 }
 
 footer {
-    background-color: #ffffff;
+    background-color: #000000;
     padding: 20px;
     text-align: center;
+    margin: 60px 0 10px;
   }
 
   .social-networks {
     text-align: center;
 }
 
+
 .social-networks > li {
     display: inline;
 }
+
 
 .social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #07a301;
+    color: #036218;
 }
+.social-networks i:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+
 
 .text {
     padding: 20px;
@@ -129,12 +138,14 @@ footer {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 1mm;
   }
   .text p{
-    ont-size: 24px;
+    font-size: 15px;
     font-weight: bold;
     text-align: center;
-    color: aqua;
+    margin-top: 1mm;
+    color: rgb(255, 255, 255);
   }
   
   
@@ -167,10 +178,78 @@ footer {
   }
   #photos{
     clear: both;
-    column-count: 4;
+    column-count: 3;
     column-gap: 0cm;
   }
   
   #photos > img { 
     width: 100%;
   }
+
+  
+  
+  .form-container {background-image: url('../images/5violinos.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
+    padding: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .form-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: #000;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000000;
+  }
+  
+  input[type="submit"] {
+    background-color: #075a0a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  
+
+  /* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
