@@ -178,13 +178,13 @@ footer {
   
   #times div {
     color: #ffffff;
-    background-color: rgba(41, 42, 42, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 20%;
     height: 300px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     box-sizing: border-box;
   }
 
@@ -287,4 +287,13 @@ footer {
 /* highlighted sentence in the "about us" on main page*/
 .highlight {
   color: rgb(10, 50, 1);
+  }
+
+/* For small screen sizes max wide 768px and to stack elements that would otherwise have been side by side on larger screens   */
+
+  @media screen and (max-width: 768px) {
+    #times {
+      display: flex;
+      flex-direction: column;
+    }
   }
