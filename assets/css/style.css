@@ -19,7 +19,7 @@ h1, h2 {
     font-family: lato, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:rgb(3, 116, 45);
+    color:rgb(2, 107, 41);
     
 }
 
@@ -43,7 +43,7 @@ h1, h2 {
     float: right;
     margin-right: 30px;
     list-style-type: none;
-    color: rgb(3, 107, 24);
+    color: rgb(2, 107, 41);
     
 }
 #menu a {
@@ -89,9 +89,9 @@ to{
 }
 }
 #cover-text {
-    font-size: 200%;
+    font-size: 120%;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     width: 250px;
     padding: 15px 20px;
 
@@ -101,6 +101,9 @@ to{
     right: 200px;
 
     position: absolute;
+}
+#cover-text h2{
+  color: gold;
 }
 
 footer {
@@ -124,7 +127,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #036218;
+    color: rgb(2, 107, 41);
 }
 .social-networks i:hover {
   transform: translateY(-10px);
@@ -233,7 +236,7 @@ footer {
   }
   
   input[type="submit"] {
-    background-color: #075a0a;
+    background-color: rgb(2, 107, 41)
     color: white;
     padding: 10px 20px;
     border: none;
@@ -242,7 +245,7 @@ footer {
   }
   
   input[type="submit"]:hover {
-    background-color: #3e8e41;
+    background-color: rgb(2, 107, 41)
   }
   
   
@@ -260,7 +263,7 @@ footer {
 }
 #signup-button {
   
-  background-color: #4CAF50;
+  background-color: rgb(2, 107, 41);
   color: white;
   padding: 10px 20px;
   text-align: center;
@@ -272,3 +275,7 @@ footer {
   
   
 }
+
+.highlight {
+  color: rgb(10, 50, 1);
+  }
