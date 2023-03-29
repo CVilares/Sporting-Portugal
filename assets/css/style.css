@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Titillium+Web:wght@300&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -10,16 +9,17 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: rgb(0, 0, 0);
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 /* headings and logo */
 
 h1, h2 {
-    font-family: Oswald, sans-serif;
+   
+    font-family: lato, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #036218;
+    color:rgb(3, 116, 45);
     
 }
 
@@ -28,6 +28,7 @@ h1, h2 {
     font-size: 280%;
     margin-left: 20px;
 }
+
 
 /* navigation links */
 
@@ -42,7 +43,7 @@ h1, h2 {
     float: right;
     margin-right: 30px;
     list-style-type: none;
-    color: rgb(255, 255, 255);
+    color: rgb(3, 107, 24);
     
 }
 #menu a {
@@ -75,6 +76,7 @@ h1, h2 {
 animation-name: hero-zoom;
 animation-duration: 5s;
 animation-fill-mode: forwards;
+object-fit: cover;
 }
 
 
@@ -93,7 +95,7 @@ to{
     width: 250px;
     padding: 15px 20px;
 
-    background-color: rgba(13, 106, 20, 0.7);
+    background-color: rgba(1, 73, 15, 0.7);
 
     bottom: 200px;
     right: 200px;
@@ -102,7 +104,7 @@ to{
 }
 
 footer {
-    background-color: #000000;
+    background-color: #ffffff;
     padding: 20px;
     text-align: center;
     margin: 60px 0 10px;
@@ -132,9 +134,12 @@ footer {
 
 .text {
     padding: 20px;
+    text-align: center;
+    
+    
   }
   
-  .text h1 {
+  .text h2 {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
@@ -145,7 +150,7 @@ footer {
     font-weight: bold;
     text-align: center;
     margin-top: 1mm;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 96, 13);
   }
   
   
@@ -166,7 +171,7 @@ footer {
   }
   
   #times div {
-    color: #fafafa;
+    color: #ffffff;
     background-color: rgba(41, 42, 42, 0.6);
     width: 20%;
     height: 300px;
@@ -192,7 +197,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 300px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -202,7 +207,7 @@ footer {
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 40px;
-    color: #000;
+    color: #ffffff;
     text-align: center;
   }
   form {
