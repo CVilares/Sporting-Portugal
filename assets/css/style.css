@@ -1,148 +1,165 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Titillium+Web:wght@300&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 body {
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;
-    max-width:1800px ;
-    margin-left:auto ;
-    margin-right: auto;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* headings and logo */
 
-h1, h2 {
-   
-    font-family: lato, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color:rgb(2, 107, 41);
-    max-width:1800px ;
-    margin-left:auto ;
-    margin-right: auto;
-    
+h1,
+h2 {
+
+  font-family: lato, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: rgb(2, 107, 41);
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 #logo {
-    float: left;
-    font-size:17,5rem;
-    margin-left: 20px;
-    max-width:1800px ;
-    margin-left:auto ;
-    margin-right: auto;
+  float: left;
+  font-size: 2.9rem;
+  margin-left: 20px;
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 /* navigation links */
 
-#menu{
-    font-size: 6,875rem;
-    letter-spacing: 4px;
+#menu {
+  font-size: 1.500rem;
+  letter-spacing: 4px;
 }
-#menu, #logo{
-    line-height: 75px;
+
+#menu,
+#logo {
+  line-height: 75px;
 }
+
 #menu li {
-    float: right;
-    margin-right: 30px;
-    list-style-type: none;
-    color: rgb(2, 107, 41);
-    
+  float: right;
+  margin-right: 30px;
+  list-style-type: none;
+  color: rgb(2, 107, 41);
+
 }
+
 #menu a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
+
 #menu a:hover {
-    border-bottom: 1px solid #0b4903;
+  border-bottom: 1px solid #0b4903;
 }
+
 /* hero image cover text*/
 
 
 
-#hero-outer{
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+#hero-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
-#cover-text, #cover-text h2{
-    color: rgb(247, 247, 247);
-    
+
+#cover-text,
+#cover-text h2 {
+  color: rgb(247, 247, 247);
+
 }
+
 #hero-image {
   height: 600px;
   width: 100%;
   background: url('../images/hero-image.jpeg') no-repeat center center;
   background-size: cover;
-  
-/* animates zoom effect on loading page */
-animation-name: hero-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
-object-fit: cover;
+
+  /* animates zoom effect on loading page */
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  object-fit: cover;
 }
 
 
 @keyframes hero-zoom {
-from{
+  from {
     transform: scale(1);
-}
-to{
+  }
+
+  to {
     transform: scale(1.1);
+  }
 }
-}
-#cover-text {font-size:7,5rem;
+
+#cover-text {
+  font-size: 7.5rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   width: 250px;
   padding: 15px 10px;
-    
-    text-align: center;
-    
 
-    background-color: rgba(2, 107, 41, 0.5);
+  text-align: center;
 
 
-    bottom: 200px;
-    right: 100px;
+  background-color: rgba(2, 107, 41, 0.5);
 
-    position:absolute;
+
+  bottom: 200px;
+  right: 100px;
+
+  position: absolute;
 }
-#cover-text h2{
+
+#cover-text h2 {
   color: gold;
 }
+
 /* footer */
 
 footer {
-    background-color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    margin: 60px 0 10px;
-  }
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin: 60px 0 10px;
+}
 
-  .social-networks {
-    text-align: center;
+.social-networks {
+  text-align: center;
 }
 
 
-.social-networks > li {
-    display: inline;
+.social-networks>li {
+  display: inline;
 }
 
 
 .social-networks i {
-    font-size: 2rem;
-    margin: 1%;
-    padding: 5%;
-    color: rgb(2, 107, 41);
+  font-size: 2rem;
+  margin: 1%;
+  padding: 5%;
+  color: rgb(2, 107, 41);
 }
+
 .social-networks i:hover {
   transform: translateY(-10px);
   transition: transform 0.3s ease;
@@ -151,143 +168,152 @@ footer {
 /* about us section on main page */
 
 .text {
-    padding: 20px;
-    text-align: center;
-    
-    
-  }
-  
-  .text h2 {
-    font-size:1,5rem;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 1mm;
-  }
-  .text p{
-    font-size:0,9375rem;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 1mm;
-    color: rgb(0, 96, 13);
-  }
-  
-  
-  
-  /* event times */
+  padding: 20px;
+  text-align: center;
 
-  
+
+}
+
+.text h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1mm;
+}
+
+.text p {
+  font-size: 0.9375rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1mm;
+  color: rgb(0, 96, 13);
+}
+
+
+
+/* event times */
+
+
 #times {
-    background-image: url('../images/next-games.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-    margin-top: 20px;
+  background-image: url('../images/next-games.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
   margin-bottom: 10px;
-  margin-left: 2s0px;
+  margin-left: 20px;
   margin-right: 20px;
-  }
-  
-  #times div {
-    color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 20%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid rgb(255, 255, 255);
-    box-sizing: border-box;
-  }
+}
 
-  /* hall of fame  */
+#times div {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 20%;
+  height: 300px;
+  float: left;
+  padding: 30px 0 0 10px;
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+}
 
-  #photos{
-    clear: both;
-    column-count: 3;
-    column-gap: 0cm;
-  }
-  
-  #photos > img { 
-    width: 100%;
-  }
+/* hall of fame  */
 
-  /* join us */
+#photos {
+  clear: both;
+  column-count: 3;
+  column-gap: 0cm;
+}
+
+#photos>img {
+  width: 100%;
+}
+
+/* join us */
+
+.form-container {
+  background-image: url('../images/est.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  padding: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-container h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  color: #ffffff;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../images/est.jpeg') background-color: rgb(0, 57, 15);
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000000;
+}
+
+input[type="submit"] {
+  color:rgb(3, 3, 3);
+  background-color: rgb(3, 92, 3) 
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
   
-  .form-container {background-image: url('../images/est.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: rgb(255, 255, 255);
-    padding: 300px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  .form-container h2 {
-    font-size:1,5rem;
-    font-weight: bold;
-    margin-top: 0px;
-    margin-bottom: 40px;
-    color: #ffffff;
-    text-align: center;
-  }
-  form {
-    display: flex;
-    flex-direction: column;
-    background-image: url('../images/est.jpeg')
-    background-color: rgb(0, 57, 15);
-    max-width:1800px ;
-    margin-left:auto ;
-    margin-right: auto;
-  }
-  
-  label {
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.5);
-    color: #000000;
-  }
-  
-  input[type="submit"] {
-    background-color: rgb(2, 107, 41)
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: rgb(2, 107, 41)
-  }
-  
+  cursor: pointer;
   
 
-  /* For medium screen sizes from 950px wide and down */
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(249, 253, 2)
+  
+}
+
+
+
+/* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
+  #menu {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
 }
+
 /* about us sign up button home page */
 #signup-button {
-  
+
   background-color: rgb(2, 107, 41);
   color: white;
   padding: 10px 20px;
@@ -297,21 +323,21 @@ footer {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  
-  
+
+
 }
 
 
 /* highlighted sentence in the "about us" on main page*/
 .highlight {
   color: rgb(10, 50, 1);
-  }
+}
 
 /* For small screen sizes max wide 768px and to stack elements that would otherwise have been side by side on larger screens   */
 
-  @media screen and (max-width: 768px) {
-    #times {
-      display: flex;
-      flex-direction: column;
-    }
+@media screen and (max-width: 768px) {
+  #times {
+    display: flex;
+    flex-direction: column;
   }
+}
