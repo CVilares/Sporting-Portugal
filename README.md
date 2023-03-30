@@ -15,14 +15,14 @@ Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
 * [Technologies Used](#technologies-used)
 * [User Experience](#user-experience-ux)
 * [Features](#features)
-  * [Acessibility](#accessibility)
-  * [Color Scheme](#color-scheme)
-  * [Typography](#typography)
-  * [Imagery](#imagery)
-  * [Icons](#icons)
+* [Future Implementations](#future-implementations) 
+* [Accessebility](#accessebility)
+* [Testing](#testing)  
+* [Validator Testing](#validator-testing)
 * [Deployment](#deployment)
-  * [Run locally](#run-locally)
-  * [Testing](#testing)
+* [Solved Bugs](#solved-bugs)
+  
+  
 * [Credits](#credits)
 
 - - - 
@@ -152,13 +152,17 @@ To have feedback from fans regarding the site content
 
 - - -
 
-### acessibilidade
+### Accessebility
+- Background and foreground colors have a sufficient contrast ratio.
+- id attributes on active, focusable elements are unique
+- Heading elements appear in a sequentially-descending order
+- 
+-  
 
 - - -
 
 ### Testing
-The different aspects of the site work as intended and have an expected outcome providing an easy and straightforward way for the users to achieve their goals.
-Chrome development tools were used during the development of the site to identify and resolve any issues as it progressed.
+This pages were successfully tested on :iOS devices using Safari browser,Firefox and Google Chrome with a macbook and iphone.
 
 ### Validator Testing
 HTML
@@ -180,9 +184,9 @@ No errors were found when passing through the official (Jigsaw) validator
 LIGHTHOUSE TESTING
 
   * Lighthouse 
-! [Lighthouse Page] (/assets/images/li.png)
-
-
+![Lighthouse Page](/assets/images/lhcheck.png)
 
 
 - - -
+
+### Solved Bugs
