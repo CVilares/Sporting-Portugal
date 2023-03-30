@@ -19,10 +19,9 @@ Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
 * [Accessebility](#accessebility)
 * [Testing](#testing)  
 * [Validator Testing](#validator-testing)
-* [Deployment](#deployment)
 * [Solved Bugs](#solved-bugs)
-  
-  
+* [Deployment](#deployment)  
+* [Responsiveness](#responsiveness)  
 * [Credits](#credits)
 
 - - - 
@@ -40,6 +39,7 @@ Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
 -   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 -   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
 - [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsive.
+- [W3Schools:](https://www.w3schools.com/) To learn , test and train.
 
 - - - 
  ## User Experience (UX)
@@ -108,7 +108,7 @@ This is an HTML code for a webpage that displays information about Sporting Port
 
 The webpage consists of a header, a form to join the team, and a footer. The header contains the name of the club, a logo, and a navigation bar with links to the home page, the hall of fame, and a signup page. The form allows users to input their first name, last name, email address, and a message. The footer contains the name of the website and links to the club's social media pages.
 
-The webpage uses a CSS stylesheet to define the layout and style of the webpage, including the position and size of the elements, the fonts, colors, and background. It also uses Font Awesome, an external library that provides icons for the social media links.
+The webpage uses a CSS stylesheet to define the layout and style of the webpage, including the position and size of the elements, the fonts, colors, and background. It also uses Font Awesome, an external library that provides icons for the social media links.When the user hovers over the footer element, the "transform" property is applied, which moves the element upwards by 10 pixels using the "translateY" function. This creates a visually pleasing animation effect.
 
 
 ![Index Logo and nav bar](/assets/images/halloffame.png)
@@ -190,3 +190,20 @@ LIGHTHOUSE TESTING
 - - -
 
 ### Solved Bugs
+
+- The font-size were changed from px to rem for more responsiveness.
+- Some Div elements were deleted after W3C validator check, no needed.
+
+- - -
+### Deployment
+- - -
+
+### Responsiveness
+- - -
+### Content
+- - -
+### Media
+- - -
+
+### Credits
+- - -
