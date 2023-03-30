@@ -175,15 +175,14 @@ CSS
 No errors were found when passing through the official (Jigsaw) validator
 
   * CSS Page
-![CSS Page](documentation/testing/w3ccss.PNG)
+![CSS Page](/assets/images/gallerychecker.png)
+
+LIGHTHOUSE TESTING
+
+  * Lighthouse 
+! [Lighthouse Page] (/assets/images/li.png)
 
 
 
-
-
-CSS
-No errors were found when passing through the official (Jigsaw) validator
-Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 - - -
