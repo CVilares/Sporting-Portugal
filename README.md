@@ -17,11 +17,13 @@ Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
 * [Features](#features)
 * [Future Implementations](#future-implementations) 
 * [Accessebility](#accessebility)
-* [Testing](#testing)  
+* [Browser Compability](#Browser-Compatibility)  
 * [Validator Testing](#validator-testing)
 * [Solved Bugs](#solved-bugs)
 * [Deployment](#deployment)  
-* [Responsiveness](#responsiveness)  
+* [Responsiveness](#responsiveness)
+* [Other tests](#Other-tests)
+* [Media](#media)  
 * [Credits](#credits)
 
 - - - 
@@ -46,7 +48,7 @@ Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
 
 ### First Time Visitor Goals
 
-         1. As a First Time Visitor, I want to easily understand that i share the same passion about the content as the web page.
+         1. As a First Time Visitor, I want to easily understand that the web page share the same passion about the content as me.
          2. The overall goal of the website should be to load fast, look simple, offer value, and be easy to navigate.
          3. As a First Time Visitor, I want to be able to easily understand by reading the "about us" what's the aim of the page.
          4. As a First Time Visitor, I want to be able to easily understand that i can be part of the team.
@@ -58,7 +60,7 @@ Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
         3. As a Returning Visitor, I want to be able to contact the organisation to give feedback or ask questions.
 
 ### Frequent User Goals
-         1. As a frequent user i want that this page works as a meeting point for supporters and fans and a place that i can use all day long because its always an updated source of information. As an example , like instagram, we go there, we check for something new and then comeback later for updates.
+         1. As a frequent user the aim is to use this website as a meeting point for supporters and fans and a place that we can use all day long because its always an updated source of information. As an example , like instagram, we go there, we check for something new and then comeback later for updates.
 
 - - - 
 
@@ -154,15 +156,18 @@ To have feedback from fans regarding the site content
 
 ### Accessebility
 - Background and foreground colors have a sufficient contrast ratio.
-- id attributes on active, focusable elements are unique
+- Id attributes on active, focusable elements are unique
 - Heading elements appear in a sequentially-descending order
 - 
 -  
 
 - - -
 
-### Testing
-This pages were successfully tested on :iOS devices using Safari browser,Firefox and Google Chrome with a macbook and iphone.
+### Browser Compatibility
+
+- This pages were successfully tested on Safari ,Firefox and Google Chrome browsers.
+
+
 
 ### Validator Testing
 HTML
@@ -179,7 +184,7 @@ CSS
 No errors were found when passing through the official (Jigsaw) validator
 
   * CSS Page
-![CSS Page](/assets/images/gallerychecker.png)
+![CSS Page](/assets/images/css.png)
 
 LIGHTHOUSE TESTING
 
@@ -193,14 +198,33 @@ LIGHTHOUSE TESTING
 
 - The font-size were changed from px to rem for more responsiveness.
 - Some Div elements were deleted after W3C validator check, no needed.
+- ; missing on css code and corrected after css validator check.
 
 - - -
 ### Deployment
 - - -
 
 ### Responsiveness
+
+Chrome developer tool have been used to check the responsivness in multiple kind of devices such as iPhone 5(320px wide),Ipad (768 x 1024), macbook air, or 5K iMac Pro (5120 x 2880).
+
 - - -
-### Content
+### Other tests
+
+* All pages and images are loaded without issues.
+* All text is visable and appropriately positioned, text sizing and font are legible.
+* All links in the webpages are working correctly and there are no broken links.
+* The navbar links work correctly and the user is directed to the correct page each time.
+* All the menu is underlined to make a visual effect for the visitors when they choose a page.
+* The "sign me up" button is correctly linked to the join us page.
+* Footer logos move up when hovering over.
+* Social Media links are visible, readable and clickable.
+* The external links open in a new tab and that the address is correct.
+* The send button on the join us page change color when we pass the mouse over.
+* The form is working as expected. If a user does not fill a mandatory field the form is not submitted.
+* The email input field must contain @ symbol to submit the form in the contact section.
+* The hero image have a zoom effect of 5 sec.
+
 - - -
 ### Media
 - - -
