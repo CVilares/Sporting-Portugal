@@ -16,7 +16,6 @@ Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
 * [User Experience](#user-experience-ux)
 * [Features](#features)
 * [Future Implementations](#future-implementations) 
-* [Accessebility](#accessebility)
 * [Browser Compability](#Browser-Compatibility)  
 * [Validator Testing](#validator-testing)
 * [Solved Bugs](#solved-bugs)
@@ -48,19 +47,20 @@ Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
 
 ### First Time Visitor Goals
 
-         1. As a First Time Visitor, I want to easily understand that the web page share the same passion about the content as me.
-         2. The overall goal of the website should be to load fast, look simple, offer value, and be easy to navigate.
-         3. As a First Time Visitor, I want to be able to easily understand by reading the "about us" what's the aim of the page.
-         4. As a First Time Visitor, I want to be able to easily understand that i can be part of the team.
+
+- As a First Time Visitor, I want to easily understand that the web page share the same passion about the content as me.
+- The overall goal of the website should be to load fast, look simple, offer value, and be easy to navigate.
+- As a First Time Visitor, I want to be able to easily understand by reading the "about us" what's the aim of the page.
+- As a First Time Visitor, I want to be able to easily understand that i can be part of the team.
 
  ### Returning Visitor Goals
 
-         1. As a Returning Visitor, I want to be able to access and view the future content such as game analyses, new players, news about the club and leave my opinion.
-        2. As a Returning Visitor, I want to be able to check next games quickly and easily.
-        3. As a Returning Visitor, I want to be able to contact the organisation to give feedback or ask questions.
+- As a Returning Visitor, I want to be able to access and view the future content such as game analyses, new players, news about the club and leave my opinion.
+- As a Returning Visitor, I want to be able to check next games quickly and easily.
+- As a Returning Visitor, I want to be able to contact the organisation to give feedback or ask questions.
 
 ### Frequent User Goals
-         1. As a frequent user the aim is to use this website as a meeting point for supporters and fans and a place that we can use all day long because its always an updated source of information. As an example , like instagram, we go there, we check for something new and then comeback later for updates.
+- As a frequent user the aim is to use this website as a meeting point for supporters and fans and a place that we can use all day long because its always an updated source of information. As an example , like instagram, we go there, we check for something new and then comeback later for updates.
 
 - - - 
 
@@ -76,7 +76,7 @@ Each page has a Logo, a navigation bar and a footer.
 
 This is an HTML code for a web page promoting Sporting Portugal, a football club from Lisbon, Portugal. The code includes the basic structure of an HTML document, including the head section with meta information, a link to a CSS file for styling, and a title element for the page title.
 
-The body section contains a header with a logo and a navigation bar with links to other pages on the website. There is also a hero image section with a background image that covers the full width of the screen and animates a zoom effect on loading the page. The cover text on the hero image has a semi-transparent background and positioned on the bottom right side of the image and some text about the goal of the page with a sign up button linked to the Join us page , followed by a section with information about upcoming matches. The page ends with a footer that includes links to the club's social media pages.
+The body section contains a header with a logo and a navigation bar with links to other pages on the website. There is also a hero image section with a background image that covers the full width of the screen and animates a zoom effect on loading the page. The cover text on the hero image has a semi-transparent background and positioned on the bottom right side of the image with sa fun fact, and some text about the goal of the page with a sign up button linked to the Join us page , followed by a section with information about upcoming matches. The page ends with a footer that includes links to the club's social media pages.
 
 The code also includes a script tag for the Font Awesome icon library, which is used to display icons for the social media links in the footer.
 
@@ -108,12 +108,12 @@ This is an HTML code for a webpage about Sporting Portugal, a football club in L
 
 This is an HTML code for a webpage that displays information about Sporting Portugal, a football club in Lisbon, Portugal.
 
-The webpage consists of a header, a form to join the team, and a footer. The header contains the name of the club, a logo, and a navigation bar with links to the home page, the hall of fame, and a signup page. The form allows users to input their first name, last name, email address, and a message. The footer contains the name of the website and links to the club's social media pages.
+The webpage consists of a header, a form to join the team, and a footer. The header contains the name of the club, a logo, and a navigation bar with links to the home page, the hall of fame, and a signup page. The form allows users to input their first name, last name, email address, and a message. The footer contains the name of the website and links to the club's social media pages.All the inputs and text ares are required, the visitor will have to fill in all text areas.
 
 The webpage uses a CSS stylesheet to define the layout and style of the webpage, including the position and size of the elements, the fonts, colors, and background. It also uses Font Awesome, an external library that provides icons for the social media links.When the user hovers over the footer element, the "transform" property is applied, which moves the element upwards by 10 pixels using the "translateY" function. This creates a visually pleasing animation effect.
 
 
-![Index Logo and nav bar](/assets/images/halloffame.png)
+![Index Logo and nav bar](/assets/images/signup.png)
 
 
 
@@ -126,10 +126,10 @@ The webpage uses a CSS stylesheet to define the layout and style of the webpage,
 
 
 - Option to choose the language of the website - 
-To be able to comunicate with all different kind od nationalities
+From Portugal to the world
 
 - Team logo on the top corner - 
-To look more appealing and professional
+To look more appealing
 
 - Backhand- 
 To accept pictures from the fans to put in our Hall off fame
@@ -151,23 +151,11 @@ Fun facts usefull to convince people to became curious about the club for exampl
 - "What you want to see section" -
 To have feedback from fans regarding the site content
 
-
-- - -
-
-### Accessebility
-- Background and foreground colors have a sufficient contrast ratio.
-- Intuitive
-- Heading elements appear in a sequentially-descending order
-- Links have a discernible name
-- Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand. 
-
 - - -
 
 ### Browser Compatibility
 
 - This pages were successfully tested on Safari ,Firefox and Google Chrome browsers.
-
-
 
 ### Validator Testing
 HTML
@@ -221,6 +209,7 @@ Chrome developer tool have been used to check the responsivness in multiple kind
 - - -
 ### Other tests
 
+* Background and foreground colors have a sufficient contrast ratio.
 * All pages and images are loaded without issues.
 * All text is visable and appropriately positioned, text sizing and font are legible.
 * All links in the webpages are working correctly and there are no broken links.
@@ -253,5 +242,5 @@ Chrome developer tool have been used to check the responsivness in multiple kind
 
 ### Credits
 
-A special thank you to my mentor and my colleagues.
+A special thank you to my mentor, family and friends.
 - - -
