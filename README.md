@@ -204,7 +204,22 @@ LIGHTHOUSE TESTING
 
 ### Responsiveness
 
-Chrome developer tool have been used to check the responsivness in multiple kind of devices such as iPhone 5(320px wide),Ipad (768 x 1024), macbook air, or 5K iMac Pro (5120 x 2880).
+Chrome developer tool have been used to check successfully the responsivness in multiple kind of devices.
+
+The responsiveness was also tested successfully on :
+
+- Desktop
+  1600x992px scaled down to scale(0.3181)
+- Laptop
+  1280x802px scaled down to scale(0.277)
+- Tablet
+  768x1024px scaled down to scale(0.219)
+- Mobile
+  320x480px scaled down to scale(0.219)
+
+  ![Hall of fame](/assets/images/fameresponsive.png)
+  ![Home](assets/images/homeresponsive.png)
+  ![Join Us](/assets/images/jresponsive.png)
 
 - - -
 ### Other tests
@@ -242,5 +257,5 @@ Chrome developer tool have been used to check the responsivness in multiple kind
 
 ### Credits
 
-A special thank you to my mentor, family and friends.
+A special thank you to my mentors, family,friends.
 - - -
