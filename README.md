@@ -23,7 +23,7 @@ Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
 * [Deployment](#deployment)  
 * [Responsiveness](#responsiveness)
 * [Other tests](#Other-tests)
-* [Media](#media)  
+* [Fork and Clone](#Fork-and-clone)  
 * [Credits](#credits)
 
 - - - 
@@ -156,10 +156,10 @@ To have feedback from fans regarding the site content
 
 ### Accessebility
 - Background and foreground colors have a sufficient contrast ratio.
-- Id attributes on active, focusable elements are unique
+- Intuitive
 - Heading elements appear in a sequentially-descending order
-- 
--  
+- Links have a discernible name
+- Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand. 
 
 - - -
 
@@ -202,6 +202,16 @@ LIGHTHOUSE TESTING
 
 - - -
 ### Deployment
+
+1. Login or Sign Up to GitHub.
+2. Go to project repository.
+3. Select Settings
+4. Click on "Pages" in the left side of the panel.
+5. Bellow Build and deployment and bellow SOURCE choose  Main .
+6. Choose which folder to deploy from, usually "/root".
+7. Click "Save", then WAIT for it to be deployed. 
+8. Your URL will be displayed above "Source
+
 - - -
 
 ### Responsiveness
@@ -226,8 +236,22 @@ Chrome developer tool have been used to check the responsivness in multiple kind
 * The hero image have a zoom effect of 5 sec.
 
 - - -
-### Media
+### Fork and Clone
+**Fork**
+1. Login or Sign Up to GitHub.
+2. Open the project [repository](https://github.com/CVilares/Sporting-Portugal).
+3. Click the Fork button in the top right corner.
+
+**Clone**
+1. Login or Sign Up to GitHub.
+2. Open the project [repository](https://github.com/CVilares/Sporting-Portugal).
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in the code editor of your choice and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
 - - -
 
 ### Credits
+
+A special thank you to my mentor and my colleagues.
 - - -
