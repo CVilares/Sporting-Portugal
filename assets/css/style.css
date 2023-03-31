@@ -404,4 +404,15 @@ text-decoration: none;
     margin: 0;
     padding: 10px 0;
   }
-}
+  
+  .form-container {
+    position: relative;
+    padding: 20px;
+  }
+  #times div {
+    float:left;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
