@@ -314,8 +314,8 @@ input[type="submit"]:hover {
 
 
 
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
+/* For medium screen sizes from 768px  */
+@media screen and (max-width: 768px) {
 
   #menu {
     clear: left;
@@ -350,9 +350,9 @@ text-decoration: none;
   color: rgb(10, 50, 1);
 }
 
-/* For small screen sizes max wide 768px and to stack elements that would otherwise have been side by side on larger screens   */
+/* For small screen sizes max wide 425px and to stack elements that would otherwise have been side by side on larger screens   */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   #times {
     display: flex;
     flex-direction: column;
@@ -376,5 +376,32 @@ text-decoration: none;
     width:100vw;
     background-size: cover;
 
+  }
+  #menu li {
+    
+    
+    list-style-type: none;
+    color: rgb(2, 107, 41);
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+@media screen and (max-width: 425px) {
+  #logo {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #menu ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  #menu li {
+    margin: 0;
+    padding: 10px 0;
   }
 }
