@@ -106,6 +106,51 @@ font-size: small;
 }
 
 
+#wraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#wraper ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#wraper li {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+#score-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#score-wrapper ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#score-wrapper li {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+
+
 @keyframes hero-zoom {
   from {
     transform: scale(1);
