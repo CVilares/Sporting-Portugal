@@ -70,6 +70,7 @@ let app = {
       this.totalScore++;
     } else {
       console.log('Wrong answer');
+      this.resetScore();
     }
     this.updateScore();
     this.nextQuestion();
@@ -86,7 +87,13 @@ let app = {
     let randomSelection = Math.floor(Math.random() * quotes.length);
     document.getElementById("quote").textContent = quotes[randomSelection].quote;
     document.getElementById("author").textContent = quotes[randomSelection].character;
+  },
+  
+  resetScore: function () {
+    this.totalScore = 0;
+    this.updateScore();
   }
+
 };
 
 app.start();

@@ -104,7 +104,7 @@ font-size: small;
   animation-fill-mode: forwards;
   object-fit: cover;
 }
-
+body{}
 
 #wrapper {
   margin-top: 40px;
@@ -115,7 +115,7 @@ font-size: small;
 }
 
 #wrapper div, #wrapper ul {
-  width: 50%;
+  
   max-width: 300px;
 }
 
@@ -127,8 +127,9 @@ ul {
 #title {
   font-size: 20px;
   font-weight: bold;
-  background: white;
+  background: rgb(184, 6, 121);
   padding: 10px;
+  color: gold;
 }
 
 .alternative {
@@ -143,8 +144,26 @@ ul {
   opacity: 0.8;
 }
 
-#result {
-  font-weight: bold;
+#quote-box {
+  background: #04b46b;
+  color: #ee072d;
+  font-family: "DINWeb-Medium", "Helvetica", "Arial", sans-serif;
+  font-size: 0.8rem;
+  
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#quote {
+  flex-direction: column;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#author {
+  margin-left: 10px;
 }
 
 
