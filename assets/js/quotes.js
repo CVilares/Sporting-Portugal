@@ -1,4 +1,4 @@
-let quotes = [
+export let quotes = [
     {
       character: "Bruno Fernandes",
       quote: `"Sporting is in my heart, and I want to give everything for this club."`
